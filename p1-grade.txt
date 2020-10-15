@@ -1,0 +1,26 @@
+## Grade: 100/100
+
+- [30 pts] Make concurrent (ABET outcome 1) - 30
+  - [10 pts] You got a speedup of at least 2 with 4 or more cores 
+  - [10 pts] mytests.c accepts a number of threads/levels as a command line argument
+  - [10 pts] Correctly creates new threads
+
+- [30 pts] Implementation analysis (speedup.pdf ABET outcome 6) - 30
+  - Score will reflect the quality of the analysis.
+
+- [10 pts] Code quality for **lab.c**
+  - [4 pts] Code is formatted correctly and follows a consistent style
+  - [2 pts] Code is commented when necessary
+  - [4 pts] There is more than just the main function in **mytests.c**
+
+- [20 pts] Compiler warnings **ALL files** - 20: no warnings
+  - Each compiler warning will result in a 3 point deduction.
+  - You are not allowed to suppress warnings
+  - You must build with the flags ```-Wall -Wextra -Wpointer-arith -Wstrict-prototypes -std=gnu89```
+
+- [10 pts] Valgrind reports no memory leaks or read/write errors - 10: no memory leaks.
+  - As reported by **runval.sh**
+  - This is a **PASS/FAIL** score. 1 read/write error or leaking 1
+    byte will result in a zero for this section. There is no partial
+    credit for this section.
+
